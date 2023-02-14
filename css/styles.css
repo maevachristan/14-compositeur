@@ -12,3 +12,15 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.wallpaper {
+  margin-top: 60px;
+}
+
+.btn1 {
+  font-family: 'Barlow', sans-serif;
+}
+
+h1 {
+  font-family: 'Cormorant Garamond', serif;
+}
