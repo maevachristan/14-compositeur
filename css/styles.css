@@ -23,18 +23,22 @@ a {
 }
 
 h1 {
+  text-transform: uppercase;
   font-family: 'Cormorant Garamond', serif;
 }
 
 h2 {
+  text-transform: uppercase;
   font-family: 'Cormorant Garamond', serif;
 }
 
 h3 {
+  text-transform: uppercase;
   font-family: 'Cormorant Garamond', serif;
 }
 
 h4 {
+  text-transform: uppercase;
   font-family: 'Cormorant Garamond', serif;
 }
 
@@ -43,5 +47,23 @@ p {
 }
 
 div {
+  text-transform: uppercase;
   font-family: 'Cormorant Garamond', serif;
+}
+
+
+.italic-title-1 {
+  font-style: italic;
+}
+
+.italic-title-2 {
+  font-style: italic;
+}
+
+.italic-title-3 {
+  font-style: italic;
+}
+
+.italic-title-4 {
+  font-style: italic;
 }
