@@ -1,7 +1,11 @@
+html {
+  background: #000000;
+}
+
 body {
   max-width: 320px;
   margin: auto;
-  background: #ddd;
+  background: #ffffff;
 }
 
 img {
