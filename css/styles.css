@@ -1,11 +1,11 @@
 html {
-  background: #000000;
+  background-color: #ffffff;
 }
 
 body {
   max-width: 320px;
   margin: auto;
-  background: #ffffff;
+  background-image: url("../img/onepage_maevachristan_copie.jpg");
 }
 
 img {
