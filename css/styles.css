@@ -20,7 +20,7 @@ img {
 
 a {
   text-transform: uppercase;
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Sarabun', sans-serif;
 }
 
 header {
@@ -58,10 +58,32 @@ h3 {
   margin: 8px 0 28px;
 }
 
+.music {
+  padding: 0 50px;
+}
+
+.cameron {
+  padding: 0 50px;
+}
+
+.synopsis {
+  padding: 0 23px;
+}
+
+.actors {
+  padding: 0 50px;
+}
+
 h4 {
   text-transform: uppercase;
-  font-family: 'Cormorant Garamond', serif;
   text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 15px;
+  margin: 13px 0 1px;
+}
+
+.legend {
+  font-size: 13px;
 }
 
 hr {
@@ -74,11 +96,11 @@ hr {
 }
 
 p {
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 14px;
 }
 
 div {
-  text-transform: uppercase;
   font-family: 'Cormorant Garamond', serif;
 }
 
