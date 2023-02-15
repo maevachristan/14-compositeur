@@ -14,26 +14,67 @@ img {
   margin: auto;
 }
 
-header {
+.wallpaper {
+  margin-top: 55px;
+}
+
+h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 38px;
+  text-transform: uppercase;
   text-align: center;
+  margin: 13px 0 3px;
+}
+
+header h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 13px 0 3px;
+}
+
+header h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 17px;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 7px;
 }
 
 main h2 {
+  font-family: 'Cormorant Garamond', serif;
+  text-transform: uppercase;
   text-align: center;
 }
 
 main h4 {
+  font-family: 'Cormorant Garamond', serif;
+  text-transform: uppercase;
   text-align: center;
 }
 
 footer h2 {
+  font-family: 'Sarabun', sans-serif;
+  text-transform: uppercase;
   text-align: center;
 }
 
 footer h3 {
+  font-family: 'Cormorant Garamond', serif;
+  text-transform: uppercase;
   text-align: center;
 }
 
 footer h4 {
+  font-family: 'Cormorant Garamond', serif;
+  text-transform: uppercase;
   text-align: center;
+}
+
+hr {
+  width: 245px;
 }
