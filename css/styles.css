@@ -50,7 +50,7 @@ main h2 {
   font-size: 32px;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 11px;
+  margin: 30px 0;
 }
 
 main h4 {
@@ -58,7 +58,7 @@ main h4 {
   font-size: 15px;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 12px;
+  margin: 13px 0;
 }
 
 footer h2 {
@@ -87,4 +87,29 @@ p {
   font-family: 'Sarabun', sans-serif;
   font-size: 13px;
   margin: 0 45px;
+}
+
+.music p {
+  margin-bottom: 15px;
+}
+
+main a {
+  display: inline-block;
+  color: #ffffff;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  border: 3px solid #ffffff;
+  border-radius: 25px;
+  margin: 20px 75px;
+}
+
+.btn6 {
+  background-color: #634544;
+  padding: 35px 10px;
+}
+
+.btn7 {
+  background-color: #8dd0dd;
+  padding: 33px 25px;
 }
