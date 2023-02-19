@@ -86,11 +86,24 @@ hr {
 p {
   font-family: 'Sarabun', sans-serif;
   font-size: 13px;
-  margin: 0 45px;
+  margin: 15px 45px 45px;
 }
 
 .music p {
   margin-bottom: 15px;
+}
+
+.synopsis p {
+  margin: 25px;
+}
+
+.actors p {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.between {
+  margin-top: 60px;
 }
 
 main a {
@@ -111,5 +124,34 @@ main a {
 
 .btn7 {
   background-color: #8dd0dd;
+  margin-bottom: 40px;
   padding: 33px 25px;
+}
+
+.watch {
+  background-color: #f664e2;
+}
+
+.btn8 {
+  background-color: #8dd0dd;
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+
+.btn9 {
+  background-color: #b26c6a;
+  padding: 7px 20px;
+  border-radius: 20px;
+}
+
+.btn10 {
+  background-color: #8dd0dd;
+  padding: 2px 10px;
+  border-radius: 20px;
+}
+
+.btn11 {
+  background-color: #b26c6a;
+  padding: 8px 38px;
+  border-radius: 20px;
 }
