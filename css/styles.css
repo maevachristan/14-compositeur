@@ -47,14 +47,18 @@ header h3 {
 
 main h2 {
   font-family: 'Cormorant Garamond', serif;
+  font-size: 32px;
   text-transform: uppercase;
   text-align: center;
+  padding-top: 11px;
 }
 
 main h4 {
   font-family: 'Cormorant Garamond', serif;
+  font-size: 15px;
   text-transform: uppercase;
   text-align: center;
+  margin-top: 12px;
 }
 
 footer h2 {
@@ -77,4 +81,10 @@ footer h4 {
 
 hr {
   width: 245px;
+}
+
+p {
+  font-family: 'Sarabun', sans-serif;
+  font-size: 13px;
+  margin: 0 45px;
 }
