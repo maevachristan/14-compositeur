@@ -103,7 +103,7 @@ p {
 }
 
 .between {
-  margin-top: 60px;
+  margin-top: 70px;
 }
 
 main a {
@@ -122,36 +122,74 @@ main a {
   padding: 35px 10px;
 }
 
+.btn6:hover {
+  background-color: #9f5f5d9b;
+}
+
 .btn7 {
   background-color: #8dd0dd;
   margin-bottom: 40px;
   padding: 33px 25px;
 }
 
+.btn7:hover {
+  background-color: #8dd0dd9b;
+}
+
 .watch {
-  background-color: #f664e2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .btn8 {
   background-color: #8dd0dd;
-  padding: 8px 20px;
+  margin: 3px 20px;
+  padding: 7px 20px;
   border-radius: 20px;
+  align-self: flex-start;
+}
+
+.btn8:hover {
+  background-color: #8dd0dd9b;
 }
 
 .btn9 {
-  background-color: #b26c6a;
+  background-color: #9f5f5d;
+  margin: 3px 20px;
   padding: 7px 20px;
   border-radius: 20px;
+  align-self: flex-end;
+}
+
+.btn9:hover {
+  background-color: #9f5f5d9b;
 }
 
 .btn10 {
   background-color: #8dd0dd;
-  padding: 2px 10px;
+  margin: 3px 20px;
+  padding: 3px 10px;
   border-radius: 20px;
+  align-self: flex-start;
+}
+
+.btn10:hover {
+  background-color: #8dd0dd9b;
 }
 
 .btn11 {
-  background-color: #b26c6a;
-  padding: 8px 38px;
+  background-color: #9f5f5d;
+  margin: 3px 20px 40px;
+  padding: 7px 40px;
   border-radius: 20px;
+  align-self: flex-end;
+}
+
+.btn11:hover {
+  background-color: #9f5f5d9b;
+}
+
+.between2 {
+  width: auto;
 }
