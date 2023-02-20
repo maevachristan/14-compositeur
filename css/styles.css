@@ -62,21 +62,44 @@ main h4 {
 }
 
 footer h2 {
-  font-family: 'Sarabun', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 30px;
   text-transform: uppercase;
   text-align: center;
+  margin: 45px 0 0;
 }
 
 footer h3 {
   font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
   text-transform: uppercase;
   text-align: center;
+  margin-top: 14px;
 }
 
 footer h4 {
   font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  font-style: italic;
   text-transform: uppercase;
   text-align: center;
+  margin-top: 2px;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin: 45px 25px 35px;
+}
+
+.networks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 60px;
 }
 
 hr {
