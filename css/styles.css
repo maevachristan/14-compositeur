@@ -8,6 +8,15 @@ body {
   background-image: url("../img/onepage_maevachristan_copie.jpg");
 }
 
+.menu {
+  background-color: darkorchid;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 0 30px;
+  padding-top: 15px;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -15,7 +24,7 @@ img {
 }
 
 .wallpaper {
-  margin-top: 55px;
+  margin-top: 25px;
 }
 
 h1 {
