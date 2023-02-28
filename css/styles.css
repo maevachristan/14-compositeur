@@ -3,9 +3,9 @@ html {
 }
 
 body {
+  background-image: url("../img/onepage_maevachristan_copie.jpg");
   max-width: 320px;
   margin: auto;
-  background-image: url("../img/onepage_maevachristan_copie.jpg");
 }
 
 img {
@@ -15,14 +15,34 @@ img {
 }
 
 .wallpaper {
-  margin-top: 55px;
+  margin-top: 10px;
+}
+
+header {
+  text-transform: uppercase;
+}
+
+.menu {
+  font-family: 'Sarabun', sans-serif;
+  font-size: 13px;
+  padding: 15px 10px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-small {
+  font-family: 'Sarabun', sans-serif;
+  font-size: 13px;
+  padding: 15px 50px 0 55px;
+  display: flex;
+  justify-content: space-around;
 }
 
 h1 {
   font-family: 'Cormorant Garamond', serif;
   font-size: 38px;
-  text-transform: uppercase;
   text-align: center;
+  text-transform: uppercase;
   margin: 13px 0 3px;
 }
 
@@ -30,7 +50,6 @@ header h2 {
   font-family: 'Cormorant Garamond', serif;
   font-size: 22px;
   font-style: italic;
-  text-transform: uppercase;
   text-align: center;
   margin: 13px 0 3px;
 }
@@ -39,7 +58,6 @@ header h3 {
   font-family: 'Cormorant Garamond', serif;
   font-size: 17px;
   font-style: italic;
-  text-transform: uppercase;
   text-align: center;
   margin-top: 10px;
   padding-bottom: 7px;
