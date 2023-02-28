@@ -14,15 +14,12 @@ img {
   margin: auto;
 }
 
-.wallpaper {
-  margin-top: 10px;
-}
-
 header {
   text-transform: uppercase;
 }
 
 .menu {
+  color: #000000;
   font-family: 'Sarabun', sans-serif;
   font-size: 13px;
   padding: 15px 10px 0;
@@ -31,11 +28,16 @@ header {
 }
 
 .menu-small {
+  color: #000000;
   font-family: 'Sarabun', sans-serif;
   font-size: 13px;
   padding: 15px 50px 0 55px;
   display: flex;
   justify-content: space-around;
+}
+
+.wallpaper {
+  margin-top: 10px;
 }
 
 h1 {
@@ -63,6 +65,10 @@ header h3 {
   padding-bottom: 7px;
 }
 
+hr {
+  width: 245px;
+}
+
 main h2 {
   font-family: 'Cormorant Garamond', serif;
   font-size: 32px;
@@ -77,6 +83,117 @@ main h4 {
   text-transform: uppercase;
   text-align: center;
   margin: 13px 0;
+}
+
+p {
+  font-family: 'Sarabun', sans-serif;
+  font-size: 13px;
+  margin: 15px 45px 45px;
+}
+
+.music p {
+  margin-bottom: 15px;
+}
+
+main a {
+  color: #ffffff;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  display: inline-block;
+  border: 3px solid #ffffff;
+  border-radius: 25px;
+  margin: 20px 75px;
+}
+
+.btn-six {
+  background-color: #634544;
+  padding: 35px 10px;
+}
+
+.btn-six:hover {
+  background-color: #9f5f5d9b;
+}
+
+.synopsis p {
+  margin: 25px;
+}
+
+.btn-seven {
+  background-color: #8dd0dd;
+  margin-bottom: 40px;
+  padding: 33px 25px;
+}
+
+.btn-seven:hover {
+  background-color: #8dd0dd9b;
+}
+
+.actors p {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.between {
+  margin-top: 70px;
+}
+
+.watch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn-eight {
+  background-color: #8dd0dd;
+  margin: 3px 20px;
+  padding: 7px 20px;
+  border-radius: 20px;
+  align-self: flex-start;
+}
+
+.btn-eight:hover {
+  background-color: #8dd0dd9b;
+}
+
+.btn-nine {
+  background-color: #9f5f5d;
+  margin: 3px 20px;
+  padding: 7px 20px;
+  border-radius: 20px;
+  align-self: flex-end;
+}
+
+.btn-nine:hover {
+  background-color: #9f5f5d9b;
+}
+
+.btn-ten {
+  background-color: #8dd0dd;
+  margin: 3px 20px;
+  padding: 3px 10px;
+  border-radius: 20px;
+  align-self: flex-start;
+}
+
+.btn-ten:hover {
+  background-color: #8dd0dd9b;
+}
+
+.btn-eleven {
+  background-color: #9f5f5d;
+  margin: 3px 20px 40px;
+  padding: 7px 40px;
+  border-radius: 20px;
+  align-self: flex-end;
+}
+
+.btn-eleven:hover {
+  background-color: #9f5f5d9b;
+}
+
+.between-two {
+  width: auto;
 }
 
 footer h2 {
@@ -118,119 +235,4 @@ footer h4 {
   flex-direction: row;
   justify-content: space-around;
   padding-bottom: 60px;
-}
-
-hr {
-  width: 245px;
-}
-
-p {
-  font-family: 'Sarabun', sans-serif;
-  font-size: 13px;
-  margin: 15px 45px 45px;
-}
-
-.music p {
-  margin-bottom: 15px;
-}
-
-.synopsis p {
-  margin: 25px;
-}
-
-.actors p {
-  margin-top: 25px;
-  margin-bottom: 15px;
-}
-
-.between {
-  margin-top: 70px;
-}
-
-main a {
-  display: inline-block;
-  color: #ffffff;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 13px;
-  text-transform: uppercase;
-  border: 3px solid #ffffff;
-  border-radius: 25px;
-  margin: 20px 75px;
-}
-
-.btn6 {
-  background-color: #634544;
-  padding: 35px 10px;
-}
-
-.btn6:hover {
-  background-color: #9f5f5d9b;
-}
-
-.btn7 {
-  background-color: #8dd0dd;
-  margin-bottom: 40px;
-  padding: 33px 25px;
-}
-
-.btn7:hover {
-  background-color: #8dd0dd9b;
-}
-
-.watch {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.btn8 {
-  background-color: #8dd0dd;
-  margin: 3px 20px;
-  padding: 7px 20px;
-  border-radius: 20px;
-  align-self: flex-start;
-}
-
-.btn8:hover {
-  background-color: #8dd0dd9b;
-}
-
-.btn9 {
-  background-color: #9f5f5d;
-  margin: 3px 20px;
-  padding: 7px 20px;
-  border-radius: 20px;
-  align-self: flex-end;
-}
-
-.btn9:hover {
-  background-color: #9f5f5d9b;
-}
-
-.btn10 {
-  background-color: #8dd0dd;
-  margin: 3px 20px;
-  padding: 3px 10px;
-  border-radius: 20px;
-  align-self: flex-start;
-}
-
-.btn10:hover {
-  background-color: #8dd0dd9b;
-}
-
-.btn11 {
-  background-color: #9f5f5d;
-  margin: 3px 20px 40px;
-  padding: 7px 40px;
-  border-radius: 20px;
-  align-self: flex-end;
-}
-
-.btn11:hover {
-  background-color: #9f5f5d9b;
-}
-
-.between2 {
-  width: auto;
 }
