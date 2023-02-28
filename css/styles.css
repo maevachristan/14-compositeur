@@ -18,8 +18,11 @@ header {
   text-transform: uppercase;
 }
 
-.menu {
+header a {
   color: #000000;
+}
+
+.menu {
   font-family: 'Sarabun', sans-serif;
   font-size: 13px;
   padding: 15px 10px 0;
@@ -28,7 +31,6 @@ header {
 }
 
 .menu-small {
-  color: #000000;
   font-family: 'Sarabun', sans-serif;
   font-size: 13px;
   padding: 15px 50px 0 55px;
